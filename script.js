@@ -48,11 +48,13 @@ lock.forEach((element) => {
   let span = document.createElement("span");
   span.innerHTML = "delete";
   span.classList.add("del");
+  span.classList.add("btn");
   right.append(span);
   let edit = document.createElement("span");
   edit.innerHTML = "Edit";
   right.append(edit);
   edit.classList.add("ed");
+  edit.classList.add("btn");
 
   span.addEventListener("click", () => {
     del(element, span);

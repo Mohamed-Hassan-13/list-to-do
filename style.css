@@ -22,7 +22,6 @@ body {
 
   button {
     cursor: pointer;
-    /* padding: 10px 40px; */
     width: 100px;
     line-height: 40px;
     font-size: 25px;
@@ -43,7 +42,6 @@ body {
     border-bottom: 1px solid;
     width: 70%;
     font-size: 20px;
-    /* background-color: red; */
   }
   input:focus {
     outline: 0;
@@ -114,24 +112,20 @@ body {
   flex-direction: row-reverse;
 
   .ed {
-    cursor: pointer;
-    font-weight: 1000;
-    font-size: 10px;
-    padding: 5px;
     background-color: #5c5cd2;
-    color: white;
-    border-radius: 10px;
   }
 
   .del {
-    cursor: pointer;
-    font-weight: 1000;
-    font-size: 10px;
-    padding: 5px;
     background-color: red;
-    color: white;
-    border-radius: 10px;
   }
+}
+#bottom .list .right .btn{
+  cursor: pointer;
+  font-weight: 1000;
+  font-size: 10px;
+  padding: 5px;
+  color: white;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 884px ) {
